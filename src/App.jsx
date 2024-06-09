@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Navbar from './components/NavBar';
+import Footer from './components/Footer';
 
 //import MRU from './modules/MRU/MRU';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
