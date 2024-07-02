@@ -1,0 +1,35 @@
+/* src/styles/PropertyCard.css */
+
+.property-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.property-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.property-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.property-title {
+  color: #0d161b;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.property-price,
+.property-service {
+  color: #4c7b9a;
+  font-size: 1rem;
+  font-weight: 400;
+}
