@@ -6,12 +6,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDPcEgmK_tEutyNUni-iVtELyLaeMXJX3w",
-    authDomain: "nomadhub-94392.firebaseapp.com",
-    projectId: "nomadhub-94392",
-    storageBucket: "nomadhub-94392.appspot.com",
-    messagingSenderId: "65668719830",
-    appId: "1:65668719830:web:cf3ab2122a3cbaf3e9d577",
+    apiKey: import.meta.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: import.meta.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.REACT_APP_FIREBASE_APP_ID,
     measurementId: "G-BJ0WX1RVSZ"
 };
 
