@@ -7,9 +7,9 @@
 
 .host-panel-sidebar {
   width: 250px;
-  background-color: #f8f8f8;
+  background-color: #fff;
+  border-right: 1px solid #e7eef3;
   padding: 20px;
-  border-right: 1px solid #ddd;
 }
 
 .host-panel-sidebar nav ul {
@@ -22,23 +22,34 @@
 }
 
 .host-panel-sidebar nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 16px;
+  display: flex;
+  align-items: center;
   padding: 10px;
-  display: block;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #0d161b;
+  border-radius: 8px;
 }
 
-.host-panel-sidebar nav ul li a:hover,
 .host-panel-sidebar nav ul li.active a {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #e7eef3;
+}
+
+.host-panel-sidebar .icon {
+  margin-right: 10px;
+}
+
+.host-panel-sidebar nav ul li a p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.host-panel-sidebar nav ul li a:hover {
+  background-color: #e7eef3;
 }
 
 .host-panel-main {
-  flex-grow: 1;
+  flex: 1;
   padding: 20px;
   overflow-y: auto;
 }
