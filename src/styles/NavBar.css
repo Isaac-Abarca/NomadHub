@@ -1,67 +1,59 @@
 /* src/components/Navbar.css */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-
-  height: 5rem;
-
+  border-bottom: 1px solid #ccc;
 }
 
-.navbar-left .logo {
-  height: 40px;
-  padding-left: 3rem;
+.navbar-logo {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-center .navbar-link {
+.navbar-logo img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.navbar-logo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
   text-decoration: none;
-  color: #333;
-  font-size: 16px;
-  margin: 0 20px;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
-
-  padding-right: 3rem;
-}
-
-.navbar-icon {
-  margin-left: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  color: #333;
-}
-
-.navbar-icon:hover {
   color: #000;
+  font-size: 16px;
 }
 
-.navbar-menu {
+.navbar-buttons {
   display: flex;
-  align-items: center;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  padding: 5px 10px;
-  margin-left: 20px;
-  height: 2rem;
+  gap: 10px;
 }
 
-.navbar-menu .fas {
-  margin: 0 5px;
-  font-size: 20px;
+.btn-login,
+.btn-register {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
-  color: #333;
 }
 
-.navbar-menu .fas:hover {
+.btn-login {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-register {
+  background-color: #f0f0f0;
   color: #000;
 }

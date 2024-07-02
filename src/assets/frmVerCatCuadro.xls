@@ -1,0 +1,1993 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+		<meta name="ProgId" content="Excel.Sheet"> 
+		<meta name="Generator" content="Microsoft Excel 10"> 
+		<link rel="File-List" href="Libro1_archivos/filelist.xml"> 
+			<link rel="Edit-Time-Data" href="Libro1_archivos/editdata.mso"> 
+				<link rel="OLE-Object-Data" href="Libro1_archivos/oledata.mso"> 
+					<!--[If gte mso 9]><xml> 
+ <o:DocumentProperties> 
+  <o:Author></o:Author> 
+  <o:LastAuthor></o:LastAuthor> 
+  <o:Created>2024-6-10T00:00:00Z</o:Created> 
+  <o:LastSaved>2024-6-10T00:00:00Z</o:LastSaved> 
+  <o:Company>BCCR</o:Company> 
+  <o:Version>10.4219</o:Version> 
+ </o:DocumentProperties> 
+ <o:OfficeDocumentSettings> 
+  <o:DownloadComponents/> 
+ </o:OfficeDocumentSettings> 
+</xml><![endif]--> 
+					<style> 
+						<!--table 
+	{mso-displayed-decimal-separator:"\,"; 
+	mso-displayed-thousand-separator:"\.";} 
+@page 
+	{margin:.98in .79in .98in .79in; 
+	mso-header-margin:0in; 
+	mso-footer-margin:0in;} 
+            tr 
+	{mso-height-source:auto;} 
+            col 
+	{mso-width-source:auto;} 
+            br 
+	{mso-data-placement:same-cell;} 
+            .style0 
+	{mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	white-space:nowrap; 
+	mso-rotate:0; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	border:none; 
+	mso-protection:locked visible; 
+	mso-style-name:Normal; 
+	mso-style-id:0;} 
+            td 
+	{mso-style-parent:style0; 
+	padding-top:1px; 
+	padding-right:1px; 
+	padding-left:1px; 
+	mso-ignore:padding; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	border:none; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	mso-protection:locked visible; 
+	white-space:nowrap; 
+	mso-rotate:0;} 
+	.numero 
+	{mso-style-parent:style0; 
+	mso-number-format:"\#\,\#\#0\.00";} 
+	.texto 
+	{mso-style-parent:style0; 
+	mso-number-format:"\@";} 
+--></style> 
+		<!--[If gte mso 9]><xml> 
+ <x:ExcelWorkbook> 
+  <x:ExcelWorksheets> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja1</x:Name> 
+    <x:WorksheetOptions> 
+     <x:Selected/> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+    <x:QueryTable> 
+     <x:RefreshOnFileOpen/> 
+     <x:Name>DataExported</x:Name> 
+     <x:AutoFormatFont/> 
+     <x:AutoFormatPattern/> 
+     <x:QuerySource> 
+      <x:QueryType>Web</x:QueryType> 
+      <x:EnableRedirections/> 
+      <x:RefreshedInXl9/> 
+      <x:EntirePage/> 
+      <x:URLString 
+       HRef='https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?CodCuadro=400&Idioma=1&FecInicial=2023/06/10&FecFinal=2024/06/10&Filtro=0&Exportar=True&Excel=True'/> 
+      <x:VersionLastEdit>1</x:VersionLastEdit> 
+      <x:VersionLastRefresh>1</x:VersionLastRefresh> 
+     </x:QuerySource> 
+    </x:QueryTable> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja2</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja3</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+  </x:ExcelWorksheets> 
+  <x:ProtectStructure>False</x:ProtectStructure> 
+  <x:ProtectWindows>False</x:ProtectWindows> 
+ </x:ExcelWorkbook> 
+ <x:ExcelName> 
+  <x:Name>DataExported</x:Name> 
+  <x:SheetIndex>1</x:SheetIndex> 
+  <x:Formula>=Hoja1!$A$1:$C$373</x:Formula> 
+ </x:ExcelName> 
+</xml><![endif]--> 
+	</head> 
+	<body link="blue" vlink="purple"> 
+<form id="Form1" method="post" runat="server">
+    <table id="Table9" cellPadding="0" cellSpacing="0" border="0">
+        <TR><TD colSpan="10" class=texto><a name="DataExported">Tipo cambio de compra y de venta del d&oacute;lar de los Estados Unidos de Am&eacute;rica</a></TD></TR>
+        <TR><TD colSpan="10" class=texto>Referencia del Banco Central de Costa Rica</TD></TR>
+        <TR><TD colSpan="10" class=texto>En colones costarricenses</TD></TR>
+        <TR><TD>&nbsp;</TD></TR>
+        <tr>
+            <td rowspan="1" colspan=1>&nbsp;</td>
+            <td class=texto rowspan="1" colspan="1">
+                TIPO CAMBIO COMPRA
+            </td>
+            <td class=texto rowspan="1" colspan="1">
+                TIPO DE CAMBIO VENTA
+            </td>
+        </tr>
+        <tr>
+            <td class=texto>10 Jun 2023</td>
+            <td class=numero align=right>540,64000000</td>
+            <td class=numero align=right>547,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Jun 2023</td>
+            <td class=numero align=right>540,64000000</td>
+            <td class=numero align=right>547,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Jun 2023</td>
+            <td class=numero align=right>540,64000000</td>
+            <td class=numero align=right>547,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Jun 2023</td>
+            <td class=numero align=right>541,20000000</td>
+            <td class=numero align=right>548,23000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Jun 2023</td>
+            <td class=numero align=right>542,11000000</td>
+            <td class=numero align=right>547,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Jun 2023</td>
+            <td class=numero align=right>540,44000000</td>
+            <td class=numero align=right>546,65000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Jun 2023</td>
+            <td class=numero align=right>539,19000000</td>
+            <td class=numero align=right>545,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Jun 2023</td>
+            <td class=numero align=right>537,98000000</td>
+            <td class=numero align=right>545,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Jun 2023</td>
+            <td class=numero align=right>537,98000000</td>
+            <td class=numero align=right>545,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Jun 2023</td>
+            <td class=numero align=right>537,98000000</td>
+            <td class=numero align=right>545,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Jun 2023</td>
+            <td class=numero align=right>537,61000000</td>
+            <td class=numero align=right>545,41000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Jun 2023</td>
+            <td class=numero align=right>539,61000000</td>
+            <td class=numero align=right>545,62000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Jun 2023</td>
+            <td class=numero align=right>541,33000000</td>
+            <td class=numero align=right>546,26000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Jun 2023</td>
+            <td class=numero align=right>541,89000000</td>
+            <td class=numero align=right>546,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Jun 2023</td>
+            <td class=numero align=right>541,96000000</td>
+            <td class=numero align=right>547,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Jun 2023</td>
+            <td class=numero align=right>541,96000000</td>
+            <td class=numero align=right>547,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Jun 2023</td>
+            <td class=numero align=right>541,96000000</td>
+            <td class=numero align=right>547,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Jun 2023</td>
+            <td class=numero align=right>541,16000000</td>
+            <td class=numero align=right>547,77000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Jun 2023</td>
+            <td class=numero align=right>542,36000000</td>
+            <td class=numero align=right>549,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Jun 2023</td>
+            <td class=numero align=right>542,90000000</td>
+            <td class=numero align=right>549,57000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Jun 2023</td>
+            <td class=numero align=right>543,13000000</td>
+            <td class=numero align=right>549,48000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Jul 2023</td>
+            <td class=numero align=right>541,86000000</td>
+            <td class=numero align=right>549,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Jul 2023</td>
+            <td class=numero align=right>541,86000000</td>
+            <td class=numero align=right>549,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Jul 2023</td>
+            <td class=numero align=right>541,86000000</td>
+            <td class=numero align=right>549,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Jul 2023</td>
+            <td class=numero align=right>541,38000000</td>
+            <td class=numero align=right>549,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Jul 2023</td>
+            <td class=numero align=right>541,17000000</td>
+            <td class=numero align=right>548,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Jul 2023</td>
+            <td class=numero align=right>542,22000000</td>
+            <td class=numero align=right>549,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Jul 2023</td>
+            <td class=numero align=right>547,31000000</td>
+            <td class=numero align=right>553,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Jul 2023</td>
+            <td class=numero align=right>548,20000000</td>
+            <td class=numero align=right>555,47000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Jul 2023</td>
+            <td class=numero align=right>548,20000000</td>
+            <td class=numero align=right>555,47000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Jul 2023</td>
+            <td class=numero align=right>548,20000000</td>
+            <td class=numero align=right>555,47000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Jul 2023</td>
+            <td class=numero align=right>547,39000000</td>
+            <td class=numero align=right>556,90000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Jul 2023</td>
+            <td class=numero align=right>547,48000000</td>
+            <td class=numero align=right>552,40000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Jul 2023</td>
+            <td class=numero align=right>543,79000000</td>
+            <td class=numero align=right>549,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Jul 2023</td>
+            <td class=numero align=right>541,90000000</td>
+            <td class=numero align=right>547,53000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Jul 2023</td>
+            <td class=numero align=right>537,97000000</td>
+            <td class=numero align=right>545,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Jul 2023</td>
+            <td class=numero align=right>537,97000000</td>
+            <td class=numero align=right>545,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Jul 2023</td>
+            <td class=numero align=right>537,97000000</td>
+            <td class=numero align=right>545,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Jul 2023</td>
+            <td class=numero align=right>535,72000000</td>
+            <td class=numero align=right>542,13000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Jul 2023</td>
+            <td class=numero align=right>536,00000000</td>
+            <td class=numero align=right>542,22000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Jul 2023</td>
+            <td class=numero align=right>536,23000000</td>
+            <td class=numero align=right>541,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Jul 2023</td>
+            <td class=numero align=right>536,86000000</td>
+            <td class=numero align=right>541,94000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Jul 2023</td>
+            <td class=numero align=right>534,98000000</td>
+            <td class=numero align=right>542,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Jul 2023</td>
+            <td class=numero align=right>534,98000000</td>
+            <td class=numero align=right>542,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Jul 2023</td>
+            <td class=numero align=right>534,98000000</td>
+            <td class=numero align=right>542,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Jul 2023</td>
+            <td class=numero align=right>534,98000000</td>
+            <td class=numero align=right>542,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Jul 2023</td>
+            <td class=numero align=right>536,05000000</td>
+            <td class=numero align=right>542,75000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Jul 2023</td>
+            <td class=numero align=right>538,67000000</td>
+            <td class=numero align=right>545,65000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Jul 2023</td>
+            <td class=numero align=right>540,33000000</td>
+            <td class=numero align=right>548,54000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Jul 2023</td>
+            <td class=numero align=right>540,94000000</td>
+            <td class=numero align=right>548,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Jul 2023</td>
+            <td class=numero align=right>540,94000000</td>
+            <td class=numero align=right>548,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Jul 2023</td>
+            <td class=numero align=right>540,94000000</td>
+            <td class=numero align=right>548,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Ago 2023</td>
+            <td class=numero align=right>540,52000000</td>
+            <td class=numero align=right>549,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Ago 2023</td>
+            <td class=numero align=right>542,86000000</td>
+            <td class=numero align=right>547,10000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Ago 2023</td>
+            <td class=numero align=right>542,86000000</td>
+            <td class=numero align=right>547,10000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Ago 2023</td>
+            <td class=numero align=right>540,92000000</td>
+            <td class=numero align=right>545,98000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Ago 2023</td>
+            <td class=numero align=right>538,86000000</td>
+            <td class=numero align=right>544,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Ago 2023</td>
+            <td class=numero align=right>538,86000000</td>
+            <td class=numero align=right>544,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Ago 2023</td>
+            <td class=numero align=right>538,86000000</td>
+            <td class=numero align=right>544,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Ago 2023</td>
+            <td class=numero align=right>538,62000000</td>
+            <td class=numero align=right>544,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Ago 2023</td>
+            <td class=numero align=right>534,76000000</td>
+            <td class=numero align=right>542,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Ago 2023</td>
+            <td class=numero align=right>534,77000000</td>
+            <td class=numero align=right>540,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Ago 2023</td>
+            <td class=numero align=right>533,13000000</td>
+            <td class=numero align=right>540,01000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Ago 2023</td>
+            <td class=numero align=right>534,20000000</td>
+            <td class=numero align=right>540,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Ago 2023</td>
+            <td class=numero align=right>534,20000000</td>
+            <td class=numero align=right>540,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Ago 2023</td>
+            <td class=numero align=right>534,20000000</td>
+            <td class=numero align=right>540,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Ago 2023</td>
+            <td class=numero align=right>534,20000000</td>
+            <td class=numero align=right>540,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Ago 2023</td>
+            <td class=numero align=right>532,47000000</td>
+            <td class=numero align=right>540,85000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Ago 2023</td>
+            <td class=numero align=right>532,45000000</td>
+            <td class=numero align=right>537,41000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Ago 2023</td>
+            <td class=numero align=right>531,39000000</td>
+            <td class=numero align=right>538,40000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Ago 2023</td>
+            <td class=numero align=right>533,80000000</td>
+            <td class=numero align=right>539,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Ago 2023</td>
+            <td class=numero align=right>533,80000000</td>
+            <td class=numero align=right>539,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Ago 2023</td>
+            <td class=numero align=right>533,80000000</td>
+            <td class=numero align=right>539,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Ago 2023</td>
+            <td class=numero align=right>535,62000000</td>
+            <td class=numero align=right>542,31000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Ago 2023</td>
+            <td class=numero align=right>536,22000000</td>
+            <td class=numero align=right>543,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Ago 2023</td>
+            <td class=numero align=right>539,90000000</td>
+            <td class=numero align=right>544,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Ago 2023</td>
+            <td class=numero align=right>539,55000000</td>
+            <td class=numero align=right>544,99000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Ago 2023</td>
+            <td class=numero align=right>538,38000000</td>
+            <td class=numero align=right>544,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Ago 2023</td>
+            <td class=numero align=right>538,38000000</td>
+            <td class=numero align=right>544,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Ago 2023</td>
+            <td class=numero align=right>538,38000000</td>
+            <td class=numero align=right>544,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Ago 2023</td>
+            <td class=numero align=right>537,53000000</td>
+            <td class=numero align=right>544,01000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Ago 2023</td>
+            <td class=numero align=right>535,97000000</td>
+            <td class=numero align=right>541,94000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Ago 2023</td>
+            <td class=numero align=right>533,90000000</td>
+            <td class=numero align=right>540,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Set 2023</td>
+            <td class=numero align=right>532,97000000</td>
+            <td class=numero align=right>539,75000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Set 2023</td>
+            <td class=numero align=right>534,16000000</td>
+            <td class=numero align=right>539,77000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Set 2023</td>
+            <td class=numero align=right>534,16000000</td>
+            <td class=numero align=right>539,77000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Set 2023</td>
+            <td class=numero align=right>534,16000000</td>
+            <td class=numero align=right>539,77000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Set 2023</td>
+            <td class=numero align=right>532,04000000</td>
+            <td class=numero align=right>541,46000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Set 2023</td>
+            <td class=numero align=right>533,59000000</td>
+            <td class=numero align=right>539,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Set 2023</td>
+            <td class=numero align=right>533,80000000</td>
+            <td class=numero align=right>540,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Set 2023</td>
+            <td class=numero align=right>533,76000000</td>
+            <td class=numero align=right>540,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Set 2023</td>
+            <td class=numero align=right>535,50000000</td>
+            <td class=numero align=right>542,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Set 2023</td>
+            <td class=numero align=right>535,50000000</td>
+            <td class=numero align=right>542,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Set 2023</td>
+            <td class=numero align=right>535,50000000</td>
+            <td class=numero align=right>542,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Set 2023</td>
+            <td class=numero align=right>534,81000000</td>
+            <td class=numero align=right>541,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Set 2023</td>
+            <td class=numero align=right>532,79000000</td>
+            <td class=numero align=right>538,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Set 2023</td>
+            <td class=numero align=right>531,17000000</td>
+            <td class=numero align=right>535,56000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Set 2023</td>
+            <td class=numero align=right>527,76000000</td>
+            <td class=numero align=right>534,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Set 2023</td>
+            <td class=numero align=right>527,76000000</td>
+            <td class=numero align=right>534,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Set 2023</td>
+            <td class=numero align=right>527,76000000</td>
+            <td class=numero align=right>534,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Set 2023</td>
+            <td class=numero align=right>527,76000000</td>
+            <td class=numero align=right>534,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Set 2023</td>
+            <td class=numero align=right>528,70000000</td>
+            <td class=numero align=right>535,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Set 2023</td>
+            <td class=numero align=right>530,36000000</td>
+            <td class=numero align=right>536,55000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Set 2023</td>
+            <td class=numero align=right>533,27000000</td>
+            <td class=numero align=right>539,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Set 2023</td>
+            <td class=numero align=right>536,53000000</td>
+            <td class=numero align=right>541,85000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Set 2023</td>
+            <td class=numero align=right>538,05000000</td>
+            <td class=numero align=right>543,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Set 2023</td>
+            <td class=numero align=right>538,05000000</td>
+            <td class=numero align=right>543,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Set 2023</td>
+            <td class=numero align=right>538,05000000</td>
+            <td class=numero align=right>543,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Set 2023</td>
+            <td class=numero align=right>535,29000000</td>
+            <td class=numero align=right>540,72000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Set 2023</td>
+            <td class=numero align=right>532,11000000</td>
+            <td class=numero align=right>536,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Set 2023</td>
+            <td class=numero align=right>530,84000000</td>
+            <td class=numero align=right>535,62000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Set 2023</td>
+            <td class=numero align=right>531,62000000</td>
+            <td class=numero align=right>538,69000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Set 2023</td>
+            <td class=numero align=right>534,47000000</td>
+            <td class=numero align=right>542,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Oct 2023</td>
+            <td class=numero align=right>534,47000000</td>
+            <td class=numero align=right>542,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Oct 2023</td>
+            <td class=numero align=right>534,47000000</td>
+            <td class=numero align=right>542,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Oct 2023</td>
+            <td class=numero align=right>533,49000000</td>
+            <td class=numero align=right>540,31000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Oct 2023</td>
+            <td class=numero align=right>530,99000000</td>
+            <td class=numero align=right>537,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Oct 2023</td>
+            <td class=numero align=right>532,55000000</td>
+            <td class=numero align=right>538,91000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Oct 2023</td>
+            <td class=numero align=right>534,28000000</td>
+            <td class=numero align=right>539,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Oct 2023</td>
+            <td class=numero align=right>534,60000000</td>
+            <td class=numero align=right>540,57000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Oct 2023</td>
+            <td class=numero align=right>534,60000000</td>
+            <td class=numero align=right>540,57000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Oct 2023</td>
+            <td class=numero align=right>534,60000000</td>
+            <td class=numero align=right>540,57000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Oct 2023</td>
+            <td class=numero align=right>533,61000000</td>
+            <td class=numero align=right>540,06000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Oct 2023</td>
+            <td class=numero align=right>532,41000000</td>
+            <td class=numero align=right>538,76000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Oct 2023</td>
+            <td class=numero align=right>530,09000000</td>
+            <td class=numero align=right>536,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Oct 2023</td>
+            <td class=numero align=right>528,02000000</td>
+            <td class=numero align=right>534,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Oct 2023</td>
+            <td class=numero align=right>527,19000000</td>
+            <td class=numero align=right>534,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Oct 2023</td>
+            <td class=numero align=right>527,19000000</td>
+            <td class=numero align=right>534,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Oct 2023</td>
+            <td class=numero align=right>527,19000000</td>
+            <td class=numero align=right>534,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Oct 2023</td>
+            <td class=numero align=right>527,80000000</td>
+            <td class=numero align=right>535,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Oct 2023</td>
+            <td class=numero align=right>527,88000000</td>
+            <td class=numero align=right>534,65000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Oct 2023</td>
+            <td class=numero align=right>531,00000000</td>
+            <td class=numero align=right>536,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Oct 2023</td>
+            <td class=numero align=right>530,71000000</td>
+            <td class=numero align=right>536,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Oct 2023</td>
+            <td class=numero align=right>532,03000000</td>
+            <td class=numero align=right>537,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Oct 2023</td>
+            <td class=numero align=right>532,03000000</td>
+            <td class=numero align=right>537,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Oct 2023</td>
+            <td class=numero align=right>532,03000000</td>
+            <td class=numero align=right>537,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Oct 2023</td>
+            <td class=numero align=right>529,19000000</td>
+            <td class=numero align=right>535,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Oct 2023</td>
+            <td class=numero align=right>527,84000000</td>
+            <td class=numero align=right>536,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Oct 2023</td>
+            <td class=numero align=right>531,56000000</td>
+            <td class=numero align=right>535,80000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Oct 2023</td>
+            <td class=numero align=right>530,70000000</td>
+            <td class=numero align=right>536,40000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Oct 2023</td>
+            <td class=numero align=right>530,58000000</td>
+            <td class=numero align=right>535,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Oct 2023</td>
+            <td class=numero align=right>530,58000000</td>
+            <td class=numero align=right>535,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Oct 2023</td>
+            <td class=numero align=right>530,58000000</td>
+            <td class=numero align=right>535,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Oct 2023</td>
+            <td class=numero align=right>530,13000000</td>
+            <td class=numero align=right>536,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Nov 2023</td>
+            <td class=numero align=right>531,72000000</td>
+            <td class=numero align=right>536,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Nov 2023</td>
+            <td class=numero align=right>530,49000000</td>
+            <td class=numero align=right>536,77000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Nov 2023</td>
+            <td class=numero align=right>532,13000000</td>
+            <td class=numero align=right>538,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Nov 2023</td>
+            <td class=numero align=right>531,59000000</td>
+            <td class=numero align=right>539,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Nov 2023</td>
+            <td class=numero align=right>531,59000000</td>
+            <td class=numero align=right>539,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Nov 2023</td>
+            <td class=numero align=right>531,59000000</td>
+            <td class=numero align=right>539,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Nov 2023</td>
+            <td class=numero align=right>530,88000000</td>
+            <td class=numero align=right>537,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Nov 2023</td>
+            <td class=numero align=right>529,45000000</td>
+            <td class=numero align=right>537,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Nov 2023</td>
+            <td class=numero align=right>530,10000000</td>
+            <td class=numero align=right>536,38000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Nov 2023</td>
+            <td class=numero align=right>530,32000000</td>
+            <td class=numero align=right>536,64000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Nov 2023</td>
+            <td class=numero align=right>529,38000000</td>
+            <td class=numero align=right>535,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Nov 2023</td>
+            <td class=numero align=right>529,38000000</td>
+            <td class=numero align=right>535,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Nov 2023</td>
+            <td class=numero align=right>529,38000000</td>
+            <td class=numero align=right>535,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Nov 2023</td>
+            <td class=numero align=right>528,58000000</td>
+            <td class=numero align=right>534,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Nov 2023</td>
+            <td class=numero align=right>528,54000000</td>
+            <td class=numero align=right>534,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Nov 2023</td>
+            <td class=numero align=right>529,78000000</td>
+            <td class=numero align=right>535,16000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Nov 2023</td>
+            <td class=numero align=right>531,02000000</td>
+            <td class=numero align=right>536,27000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Nov 2023</td>
+            <td class=numero align=right>531,11000000</td>
+            <td class=numero align=right>535,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Nov 2023</td>
+            <td class=numero align=right>531,11000000</td>
+            <td class=numero align=right>535,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Nov 2023</td>
+            <td class=numero align=right>531,11000000</td>
+            <td class=numero align=right>535,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Nov 2023</td>
+            <td class=numero align=right>529,00000000</td>
+            <td class=numero align=right>534,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Nov 2023</td>
+            <td class=numero align=right>528,22000000</td>
+            <td class=numero align=right>534,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Nov 2023</td>
+            <td class=numero align=right>527,78000000</td>
+            <td class=numero align=right>534,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Nov 2023</td>
+            <td class=numero align=right>529,98000000</td>
+            <td class=numero align=right>535,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Nov 2023</td>
+            <td class=numero align=right>529,57000000</td>
+            <td class=numero align=right>533,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Nov 2023</td>
+            <td class=numero align=right>529,57000000</td>
+            <td class=numero align=right>533,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Nov 2023</td>
+            <td class=numero align=right>529,57000000</td>
+            <td class=numero align=right>533,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Nov 2023</td>
+            <td class=numero align=right>526,50000000</td>
+            <td class=numero align=right>534,53000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Nov 2023</td>
+            <td class=numero align=right>528,37000000</td>
+            <td class=numero align=right>533,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Nov 2023</td>
+            <td class=numero align=right>528,36000000</td>
+            <td class=numero align=right>534,10000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Dic 2023</td>
+            <td class=numero align=right>530,32000000</td>
+            <td class=numero align=right>537,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Dic 2023</td>
+            <td class=numero align=right>530,32000000</td>
+            <td class=numero align=right>537,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Dic 2023</td>
+            <td class=numero align=right>530,32000000</td>
+            <td class=numero align=right>537,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Dic 2023</td>
+            <td class=numero align=right>530,32000000</td>
+            <td class=numero align=right>537,44000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Dic 2023</td>
+            <td class=numero align=right>528,22000000</td>
+            <td class=numero align=right>535,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Dic 2023</td>
+            <td class=numero align=right>525,71000000</td>
+            <td class=numero align=right>533,23000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Dic 2023</td>
+            <td class=numero align=right>528,07000000</td>
+            <td class=numero align=right>532,94000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Dic 2023</td>
+            <td class=numero align=right>526,83000000</td>
+            <td class=numero align=right>532,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Dic 2023</td>
+            <td class=numero align=right>526,96000000</td>
+            <td class=numero align=right>533,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Dic 2023</td>
+            <td class=numero align=right>526,96000000</td>
+            <td class=numero align=right>533,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Dic 2023</td>
+            <td class=numero align=right>526,96000000</td>
+            <td class=numero align=right>533,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Dic 2023</td>
+            <td class=numero align=right>526,24000000</td>
+            <td class=numero align=right>531,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Dic 2023</td>
+            <td class=numero align=right>523,91000000</td>
+            <td class=numero align=right>531,41000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Dic 2023</td>
+            <td class=numero align=right>525,00000000</td>
+            <td class=numero align=right>530,40000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Dic 2023</td>
+            <td class=numero align=right>522,31000000</td>
+            <td class=numero align=right>529,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Dic 2023</td>
+            <td class=numero align=right>521,38000000</td>
+            <td class=numero align=right>528,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Dic 2023</td>
+            <td class=numero align=right>521,38000000</td>
+            <td class=numero align=right>528,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Dic 2023</td>
+            <td class=numero align=right>521,38000000</td>
+            <td class=numero align=right>528,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Dic 2023</td>
+            <td class=numero align=right>521,11000000</td>
+            <td class=numero align=right>527,95000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Dic 2023</td>
+            <td class=numero align=right>520,83000000</td>
+            <td class=numero align=right>526,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Dic 2023</td>
+            <td class=numero align=right>521,02000000</td>
+            <td class=numero align=right>527,01000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Dic 2023</td>
+            <td class=numero align=right>520,08000000</td>
+            <td class=numero align=right>525,80000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Dic 2023</td>
+            <td class=numero align=right>519,74000000</td>
+            <td class=numero align=right>526,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Dic 2023</td>
+            <td class=numero align=right>519,74000000</td>
+            <td class=numero align=right>526,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Dic 2023</td>
+            <td class=numero align=right>519,74000000</td>
+            <td class=numero align=right>526,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Dic 2023</td>
+            <td class=numero align=right>519,74000000</td>
+            <td class=numero align=right>526,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Dic 2023</td>
+            <td class=numero align=right>519,03000000</td>
+            <td class=numero align=right>524,85000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Dic 2023</td>
+            <td class=numero align=right>518,13000000</td>
+            <td class=numero align=right>524,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Dic 2023</td>
+            <td class=numero align=right>519,21000000</td>
+            <td class=numero align=right>526,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Dic 2023</td>
+            <td class=numero align=right>519,21000000</td>
+            <td class=numero align=right>526,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Dic 2023</td>
+            <td class=numero align=right>519,21000000</td>
+            <td class=numero align=right>526,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Ene 2024</td>
+            <td class=numero align=right>519,21000000</td>
+            <td class=numero align=right>526,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Ene 2024</td>
+            <td class=numero align=right>519,21000000</td>
+            <td class=numero align=right>526,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Ene 2024</td>
+            <td class=numero align=right>518,92000000</td>
+            <td class=numero align=right>525,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Ene 2024</td>
+            <td class=numero align=right>518,01000000</td>
+            <td class=numero align=right>524,65000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Ene 2024</td>
+            <td class=numero align=right>516,88000000</td>
+            <td class=numero align=right>523,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Ene 2024</td>
+            <td class=numero align=right>516,09000000</td>
+            <td class=numero align=right>524,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Ene 2024</td>
+            <td class=numero align=right>516,09000000</td>
+            <td class=numero align=right>524,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Ene 2024</td>
+            <td class=numero align=right>516,09000000</td>
+            <td class=numero align=right>524,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Ene 2024</td>
+            <td class=numero align=right>519,96000000</td>
+            <td class=numero align=right>525,27000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Ene 2024</td>
+            <td class=numero align=right>520,35000000</td>
+            <td class=numero align=right>524,94000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Ene 2024</td>
+            <td class=numero align=right>518,06000000</td>
+            <td class=numero align=right>524,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Ene 2024</td>
+            <td class=numero align=right>516,97000000</td>
+            <td class=numero align=right>523,15000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Ene 2024</td>
+            <td class=numero align=right>516,07000000</td>
+            <td class=numero align=right>523,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Ene 2024</td>
+            <td class=numero align=right>516,07000000</td>
+            <td class=numero align=right>523,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Ene 2024</td>
+            <td class=numero align=right>516,07000000</td>
+            <td class=numero align=right>523,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Ene 2024</td>
+            <td class=numero align=right>515,60000000</td>
+            <td class=numero align=right>521,13000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Ene 2024</td>
+            <td class=numero align=right>512,54000000</td>
+            <td class=numero align=right>519,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Ene 2024</td>
+            <td class=numero align=right>514,07000000</td>
+            <td class=numero align=right>520,16000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Ene 2024</td>
+            <td class=numero align=right>514,51000000</td>
+            <td class=numero align=right>519,23000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Ene 2024</td>
+            <td class=numero align=right>513,55000000</td>
+            <td class=numero align=right>519,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Ene 2024</td>
+            <td class=numero align=right>513,55000000</td>
+            <td class=numero align=right>519,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Ene 2024</td>
+            <td class=numero align=right>513,55000000</td>
+            <td class=numero align=right>519,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Ene 2024</td>
+            <td class=numero align=right>511,81000000</td>
+            <td class=numero align=right>518,32000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Ene 2024</td>
+            <td class=numero align=right>512,68000000</td>
+            <td class=numero align=right>517,72000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Ene 2024</td>
+            <td class=numero align=right>511,15000000</td>
+            <td class=numero align=right>517,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Ene 2024</td>
+            <td class=numero align=right>511,01000000</td>
+            <td class=numero align=right>517,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Ene 2024</td>
+            <td class=numero align=right>512,09000000</td>
+            <td class=numero align=right>516,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Ene 2024</td>
+            <td class=numero align=right>512,09000000</td>
+            <td class=numero align=right>516,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Ene 2024</td>
+            <td class=numero align=right>512,09000000</td>
+            <td class=numero align=right>516,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Ene 2024</td>
+            <td class=numero align=right>510,56000000</td>
+            <td class=numero align=right>517,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Ene 2024</td>
+            <td class=numero align=right>513,02000000</td>
+            <td class=numero align=right>519,79000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Feb 2024</td>
+            <td class=numero align=right>514,33000000</td>
+            <td class=numero align=right>520,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Feb 2024</td>
+            <td class=numero align=right>512,57000000</td>
+            <td class=numero align=right>520,20000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Feb 2024</td>
+            <td class=numero align=right>514,32000000</td>
+            <td class=numero align=right>520,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Feb 2024</td>
+            <td class=numero align=right>514,32000000</td>
+            <td class=numero align=right>520,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Feb 2024</td>
+            <td class=numero align=right>514,32000000</td>
+            <td class=numero align=right>520,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Feb 2024</td>
+            <td class=numero align=right>514,10000000</td>
+            <td class=numero align=right>521,79000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Feb 2024</td>
+            <td class=numero align=right>514,61000000</td>
+            <td class=numero align=right>521,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Feb 2024</td>
+            <td class=numero align=right>516,13000000</td>
+            <td class=numero align=right>520,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Feb 2024</td>
+            <td class=numero align=right>514,52000000</td>
+            <td class=numero align=right>521,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Feb 2024</td>
+            <td class=numero align=right>515,17000000</td>
+            <td class=numero align=right>521,38000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Feb 2024</td>
+            <td class=numero align=right>515,17000000</td>
+            <td class=numero align=right>521,38000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Feb 2024</td>
+            <td class=numero align=right>515,17000000</td>
+            <td class=numero align=right>521,38000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Feb 2024</td>
+            <td class=numero align=right>514,59000000</td>
+            <td class=numero align=right>520,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Feb 2024</td>
+            <td class=numero align=right>514,80000000</td>
+            <td class=numero align=right>520,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Feb 2024</td>
+            <td class=numero align=right>514,85000000</td>
+            <td class=numero align=right>520,81000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Feb 2024</td>
+            <td class=numero align=right>513,47000000</td>
+            <td class=numero align=right>519,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Feb 2024</td>
+            <td class=numero align=right>511,10000000</td>
+            <td class=numero align=right>518,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Feb 2024</td>
+            <td class=numero align=right>511,10000000</td>
+            <td class=numero align=right>518,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Feb 2024</td>
+            <td class=numero align=right>511,10000000</td>
+            <td class=numero align=right>518,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Feb 2024</td>
+            <td class=numero align=right>511,41000000</td>
+            <td class=numero align=right>517,41000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Feb 2024</td>
+            <td class=numero align=right>510,73000000</td>
+            <td class=numero align=right>516,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Feb 2024</td>
+            <td class=numero align=right>511,78000000</td>
+            <td class=numero align=right>517,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Feb 2024</td>
+            <td class=numero align=right>512,61000000</td>
+            <td class=numero align=right>517,48000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Feb 2024</td>
+            <td class=numero align=right>511,27000000</td>
+            <td class=numero align=right>517,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Feb 2024</td>
+            <td class=numero align=right>511,27000000</td>
+            <td class=numero align=right>517,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Feb 2024</td>
+            <td class=numero align=right>511,27000000</td>
+            <td class=numero align=right>517,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Feb 2024</td>
+            <td class=numero align=right>513,24000000</td>
+            <td class=numero align=right>517,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Feb 2024</td>
+            <td class=numero align=right>512,05000000</td>
+            <td class=numero align=right>517,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Feb 2024</td>
+            <td class=numero align=right>509,87000000</td>
+            <td class=numero align=right>516,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Mar 2024</td>
+            <td class=numero align=right>509,84000000</td>
+            <td class=numero align=right>517,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Mar 2024</td>
+            <td class=numero align=right>509,75000000</td>
+            <td class=numero align=right>518,15000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Mar 2024</td>
+            <td class=numero align=right>509,75000000</td>
+            <td class=numero align=right>518,15000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Mar 2024</td>
+            <td class=numero align=right>509,75000000</td>
+            <td class=numero align=right>518,15000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Mar 2024</td>
+            <td class=numero align=right>509,76000000</td>
+            <td class=numero align=right>515,95000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Mar 2024</td>
+            <td class=numero align=right>509,71000000</td>
+            <td class=numero align=right>515,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Mar 2024</td>
+            <td class=numero align=right>508,65000000</td>
+            <td class=numero align=right>513,76000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Mar 2024</td>
+            <td class=numero align=right>507,33000000</td>
+            <td class=numero align=right>512,99000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Mar 2024</td>
+            <td class=numero align=right>506,33000000</td>
+            <td class=numero align=right>512,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Mar 2024</td>
+            <td class=numero align=right>506,33000000</td>
+            <td class=numero align=right>512,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Mar 2024</td>
+            <td class=numero align=right>506,33000000</td>
+            <td class=numero align=right>512,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Mar 2024</td>
+            <td class=numero align=right>504,92000000</td>
+            <td class=numero align=right>511,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Mar 2024</td>
+            <td class=numero align=right>504,10000000</td>
+            <td class=numero align=right>510,75000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Mar 2024</td>
+            <td class=numero align=right>503,92000000</td>
+            <td class=numero align=right>509,98000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Mar 2024</td>
+            <td class=numero align=right>503,53000000</td>
+            <td class=numero align=right>509,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Mar 2024</td>
+            <td class=numero align=right>501,37000000</td>
+            <td class=numero align=right>507,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Mar 2024</td>
+            <td class=numero align=right>501,37000000</td>
+            <td class=numero align=right>507,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Mar 2024</td>
+            <td class=numero align=right>501,37000000</td>
+            <td class=numero align=right>507,89000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Mar 2024</td>
+            <td class=numero align=right>499,72000000</td>
+            <td class=numero align=right>505,80000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Mar 2024</td>
+            <td class=numero align=right>500,67000000</td>
+            <td class=numero align=right>505,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Mar 2024</td>
+            <td class=numero align=right>499,86000000</td>
+            <td class=numero align=right>505,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Mar 2024</td>
+            <td class=numero align=right>500,92000000</td>
+            <td class=numero align=right>505,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Mar 2024</td>
+            <td class=numero align=right>499,42000000</td>
+            <td class=numero align=right>505,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Mar 2024</td>
+            <td class=numero align=right>499,42000000</td>
+            <td class=numero align=right>505,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Mar 2024</td>
+            <td class=numero align=right>499,42000000</td>
+            <td class=numero align=right>505,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Mar 2024</td>
+            <td class=numero align=right>500,89000000</td>
+            <td class=numero align=right>505,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Mar 2024</td>
+            <td class=numero align=right>499,32000000</td>
+            <td class=numero align=right>505,99000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Mar 2024</td>
+            <td class=numero align=right>499,39000000</td>
+            <td class=numero align=right>506,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Mar 2024</td>
+            <td class=numero align=right>499,39000000</td>
+            <td class=numero align=right>506,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Mar 2024</td>
+            <td class=numero align=right>499,39000000</td>
+            <td class=numero align=right>506,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Mar 2024</td>
+            <td class=numero align=right>499,39000000</td>
+            <td class=numero align=right>506,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Abr 2024</td>
+            <td class=numero align=right>499,39000000</td>
+            <td class=numero align=right>506,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Abr 2024</td>
+            <td class=numero align=right>497,74000000</td>
+            <td class=numero align=right>505,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Abr 2024</td>
+            <td class=numero align=right>497,70000000</td>
+            <td class=numero align=right>504,75000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Abr 2024</td>
+            <td class=numero align=right>499,76000000</td>
+            <td class=numero align=right>505,99000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Abr 2024</td>
+            <td class=numero align=right>500,28000000</td>
+            <td class=numero align=right>506,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Abr 2024</td>
+            <td class=numero align=right>498,51000000</td>
+            <td class=numero align=right>507,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Abr 2024</td>
+            <td class=numero align=right>498,51000000</td>
+            <td class=numero align=right>507,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Abr 2024</td>
+            <td class=numero align=right>498,51000000</td>
+            <td class=numero align=right>507,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Abr 2024</td>
+            <td class=numero align=right>499,47000000</td>
+            <td class=numero align=right>505,46000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Abr 2024</td>
+            <td class=numero align=right>499,75000000</td>
+            <td class=numero align=right>504,42000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Abr 2024</td>
+            <td class=numero align=right>497,23000000</td>
+            <td class=numero align=right>504,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Abr 2024</td>
+            <td class=numero align=right>498,23000000</td>
+            <td class=numero align=right>504,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Abr 2024</td>
+            <td class=numero align=right>497,76000000</td>
+            <td class=numero align=right>504,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Abr 2024</td>
+            <td class=numero align=right>497,76000000</td>
+            <td class=numero align=right>504,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Abr 2024</td>
+            <td class=numero align=right>497,76000000</td>
+            <td class=numero align=right>504,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Abr 2024</td>
+            <td class=numero align=right>497,76000000</td>
+            <td class=numero align=right>504,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Abr 2024</td>
+            <td class=numero align=right>497,97000000</td>
+            <td class=numero align=right>503,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Abr 2024</td>
+            <td class=numero align=right>497,92000000</td>
+            <td class=numero align=right>504,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Abr 2024</td>
+            <td class=numero align=right>499,09000000</td>
+            <td class=numero align=right>504,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Abr 2024</td>
+            <td class=numero align=right>497,44000000</td>
+            <td class=numero align=right>503,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Abr 2024</td>
+            <td class=numero align=right>497,44000000</td>
+            <td class=numero align=right>503,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Abr 2024</td>
+            <td class=numero align=right>497,44000000</td>
+            <td class=numero align=right>503,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Abr 2024</td>
+            <td class=numero align=right>498,77000000</td>
+            <td class=numero align=right>502,86000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Abr 2024</td>
+            <td class=numero align=right>498,48000000</td>
+            <td class=numero align=right>504,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Abr 2024</td>
+            <td class=numero align=right>499,60000000</td>
+            <td class=numero align=right>505,01000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Abr 2024</td>
+            <td class=numero align=right>499,75000000</td>
+            <td class=numero align=right>504,88000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Abr 2024</td>
+            <td class=numero align=right>498,75000000</td>
+            <td class=numero align=right>505,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Abr 2024</td>
+            <td class=numero align=right>498,75000000</td>
+            <td class=numero align=right>505,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Abr 2024</td>
+            <td class=numero align=right>498,75000000</td>
+            <td class=numero align=right>505,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Abr 2024</td>
+            <td class=numero align=right>500,86000000</td>
+            <td class=numero align=right>507,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 May 2024</td>
+            <td class=numero align=right>503,11000000</td>
+            <td class=numero align=right>510,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 May 2024</td>
+            <td class=numero align=right>503,11000000</td>
+            <td class=numero align=right>510,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 May 2024</td>
+            <td class=numero align=right>504,80000000</td>
+            <td class=numero align=right>511,40000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 May 2024</td>
+            <td class=numero align=right>503,94000000</td>
+            <td class=numero align=right>511,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 May 2024</td>
+            <td class=numero align=right>503,94000000</td>
+            <td class=numero align=right>511,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 May 2024</td>
+            <td class=numero align=right>503,94000000</td>
+            <td class=numero align=right>511,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 May 2024</td>
+            <td class=numero align=right>504,53000000</td>
+            <td class=numero align=right>512,28000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 May 2024</td>
+            <td class=numero align=right>506,22000000</td>
+            <td class=numero align=right>512,64000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 May 2024</td>
+            <td class=numero align=right>506,91000000</td>
+            <td class=numero align=right>513,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 May 2024</td>
+            <td class=numero align=right>508,04000000</td>
+            <td class=numero align=right>513,95000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 May 2024</td>
+            <td class=numero align=right>508,13000000</td>
+            <td class=numero align=right>514,66000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 May 2024</td>
+            <td class=numero align=right>508,13000000</td>
+            <td class=numero align=right>514,66000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 May 2024</td>
+            <td class=numero align=right>508,13000000</td>
+            <td class=numero align=right>514,66000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 May 2024</td>
+            <td class=numero align=right>508,32000000</td>
+            <td class=numero align=right>514,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 May 2024</td>
+            <td class=numero align=right>505,91000000</td>
+            <td class=numero align=right>512,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 May 2024</td>
+            <td class=numero align=right>505,84000000</td>
+            <td class=numero align=right>511,92000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 May 2024</td>
+            <td class=numero align=right>505,52000000</td>
+            <td class=numero align=right>511,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 May 2024</td>
+            <td class=numero align=right>505,39000000</td>
+            <td class=numero align=right>512,59000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 May 2024</td>
+            <td class=numero align=right>505,39000000</td>
+            <td class=numero align=right>512,59000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 May 2024</td>
+            <td class=numero align=right>505,39000000</td>
+            <td class=numero align=right>512,59000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 May 2024</td>
+            <td class=numero align=right>507,60000000</td>
+            <td class=numero align=right>513,21000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 May 2024</td>
+            <td class=numero align=right>510,56000000</td>
+            <td class=numero align=right>514,73000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 May 2024</td>
+            <td class=numero align=right>509,42000000</td>
+            <td class=numero align=right>516,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 May 2024</td>
+            <td class=numero align=right>512,37000000</td>
+            <td class=numero align=right>518,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 May 2024</td>
+            <td class=numero align=right>514,76000000</td>
+            <td class=numero align=right>520,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 May 2024</td>
+            <td class=numero align=right>514,76000000</td>
+            <td class=numero align=right>520,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 May 2024</td>
+            <td class=numero align=right>514,76000000</td>
+            <td class=numero align=right>520,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 May 2024</td>
+            <td class=numero align=right>515,37000000</td>
+            <td class=numero align=right>522,78000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 May 2024</td>
+            <td class=numero align=right>521,50000000</td>
+            <td class=numero align=right>525,05000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 May 2024</td>
+            <td class=numero align=right>520,35000000</td>
+            <td class=numero align=right>527,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 May 2024</td>
+            <td class=numero align=right>522,66000000</td>
+            <td class=numero align=right>528,55000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Jun 2024</td>
+            <td class=numero align=right>523,86000000</td>
+            <td class=numero align=right>532,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Jun 2024</td>
+            <td class=numero align=right>523,86000000</td>
+            <td class=numero align=right>532,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Jun 2024</td>
+            <td class=numero align=right>523,86000000</td>
+            <td class=numero align=right>532,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Jun 2024</td>
+            <td class=numero align=right>526,48000000</td>
+            <td class=numero align=right>534,55000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Jun 2024</td>
+            <td class=numero align=right>526,48000000</td>
+            <td class=numero align=right>532,62000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Jun 2024</td>
+            <td class=numero align=right>525,50000000</td>
+            <td class=numero align=right>531,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Jun 2024</td>
+            <td class=numero align=right>527,52000000</td>
+            <td class=numero align=right>532,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Jun 2024</td>
+            <td class=numero align=right>526,98000000</td>
+            <td class=numero align=right>534,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Jun 2024</td>
+            <td class=numero align=right>526,98000000</td>
+            <td class=numero align=right>534,84000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Jun 2024</td>
+            <td class=numero align=right>526,98000000</td>
+            <td class=numero align=right>534,84000000</td>
+        </tr>
+    </table>
+</HTML>
