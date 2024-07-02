@@ -12,7 +12,7 @@ import { AuthProvider } from './contexts/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import HostPanel from './pages/HostPanel'; // Import HostPanel component
+import HostPanel from './pages/HostPanel'; 
 
 const App = () => {
   return (

@@ -7,6 +7,7 @@ import Listings from './Listings';
 import Reservations from './Reservations';
 import Support from './Support';
 import '../styles/HostPanel.css';
+import AddProperty from './AddProperty';
 
 const HostPanel = () => {
   const [activeSection, setActiveSection] = useState('overview');
@@ -17,7 +18,7 @@ const HostPanel = () => {
         <nav>
           <ul>
             <li className={activeSection === 'overview' ? 'active' : ''}>
-              <Link to="/host/overview" onClick={() => setActiveSection('overview')}>
+              <Link to="/host/" onClick={() => setActiveSection('overview')}>
                 <div className="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                     <path
@@ -69,11 +70,12 @@ const HostPanel = () => {
       </aside>
       <main className="host-panel-main">
         <Routes>
-          <Route path="overview" element={<Overview />} />
+          <Route path="/" element={<Overview />} />
           <Route path="listings" element={<Listings />} />
           <Route path="reservations" element={<Reservations />} />
           <Route path="support" element={<Support />} />
-        </Routes>
+          <Route path="addproperty" element={<AddProperty/>}/>
+        </Routes>   
       </main>
     </div>
   );

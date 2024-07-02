@@ -1,5 +1,6 @@
 // src/pages/Listings.jsx
 
+import { Link } from 'react-router-dom';
 import '../styles/Listings.css';
 
 const Listings = () => {
@@ -10,9 +11,11 @@ const Listings = () => {
           <p className="title">Mis Propiedades</p>
         </div>
         <div className="add-property-button">
-          <button>
-            <span>Agregar Propiedad</span>
-          </button>
+          <Link to="/host/addproperty">
+            <button>
+              <span>Agregar Propiedad</span>
+            </button>
+          </Link>
         </div>
       </div>
       <div className="tabs-section">
@@ -59,6 +62,7 @@ const Listings = () => {
 };
 
 export default Listings;
+
 
 
   
