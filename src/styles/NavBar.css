@@ -42,7 +42,8 @@
 
 .btn-login,
 .btn-register,
-.btn-logout {
+.btn-logout,
+.btn-host-panel {
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
@@ -61,6 +62,11 @@
 
 .btn-logout {
   background-color: #ff4d4d;
+  color: #fff;
+}
+
+.btn-host-panel {
+  background-color: #28a745;
   color: #fff;
 }
 

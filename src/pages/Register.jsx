@@ -11,6 +11,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [termsAccepted, setTermsAccepted] = useState(false);
+  const [accountType, setAccountType] = useState('cliente');
   const [error, setError] = useState('');
   const { register } = useAuth();
   const navigate = useNavigate();
@@ -24,8 +25,7 @@ const Register = () => {
     }
 
     try {
-      await register(email, password);
-      console.log({ firstName, lastName, email, termsAccepted });
+      await register(email, password, firstName, lastName, accountType);
       navigate('/explore');
     } catch (err) {
       setError(err.message);
@@ -71,6 +71,11 @@ const Register = () => {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
+          <label>Tipo de Cuenta</label>
+          <select value={accountType} onChange={(e) => setAccountType(e.target.value)}>
+            <option value="cliente">Cliente</option>
+            <option value="anfitrion">Anfitrión</option>
+          </select>
           <label className="terms-label">
             <input
               type="checkbox"
@@ -91,4 +96,3 @@ const Register = () => {
 };
 
 export default Register;
-

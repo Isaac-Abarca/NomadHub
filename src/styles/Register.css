@@ -38,6 +38,15 @@
   border-radius: 5px;
 }
 
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
 .register-form small {
   display: block;
   text-align: left;

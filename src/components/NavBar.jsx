@@ -1,11 +1,12 @@
-// src/components/Navbar.jsx
+// src/components/NavBar.js
+
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 import logo from '../assets/logo.png';
 import { useAuth } from '../contexts/AuthContext';
 
 const Navbar = () => {
-    const { currentUser, logout } = useAuth();
+  const { currentUser, logout } = useAuth();
 
   const handleLogout = async () => {
     try {
@@ -29,6 +30,11 @@ const Navbar = () => {
       <div className="navbar-buttons">
         {currentUser ? (
           <div className="navbar-profile">
+            {currentUser.accountType === 'anfitrion' && (
+              <Link to="/host-panel">
+                <button className="btn-host-panel">Panel de Anfitrión</button>
+              </Link>
+            )}
             <Link to="/profile">
               <img src={currentUser.photoURL || "/path/to/default-avatar.png"} alt="Profile" className="profile-pic-navbar" />
             </Link>

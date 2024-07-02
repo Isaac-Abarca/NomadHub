@@ -12,6 +12,7 @@ import { AuthProvider } from './contexts/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
+import HostPanel from './pages/HostPanel'; // Import HostPanel component
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
+          <Route path="/host/*" element={<PrivateRoute><HostPanel /></PrivateRoute>} />
           <Route
             path="/protected"
             element={
@@ -41,6 +43,4 @@ const App = () => {
 };
 
 export default App;
-
-
 

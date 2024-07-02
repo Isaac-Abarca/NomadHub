@@ -18,40 +18,35 @@ export const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
         const userDoc = await getDoc(doc(db, 'users', user.uid));
-        if (!userDoc.exists()) {
-          await setDoc(doc(db, 'users', user.uid), {
-            email: user.email,
-            firstName: '',
-            lastName: '',
-            phone: '',
-            instagram: '',
-            whatsapp: '',
-            telegram: '',
-            photoURL: user.photoURL || '',
-          });
+        if (userDoc.exists()) {
+          setCurrentUser({ ...user, ...userDoc.data() });
+        } else {
+          setCurrentUser(user);
         }
+      } else {
+        setCurrentUser(null);
       }
-      setCurrentUser(user);
       setLoading(false);
     });
     return unsubscribe;
   }, []);
 
-  const register = async (email, password) => {
+  const register = async (email, password, firstName, lastName, accountType) => {
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       await setDoc(doc(db, 'users', user.uid), {
         email: user.email,
-        firstName: '',
-        lastName: '',
+        firstName,
+        lastName,
+        accountType,
         phone: '',
         instagram: '',
         whatsapp: '',
         telegram: '',
-        photoURL: '',
+        photoURL: user.photoURL || '',
       });
-      setCurrentUser(user);
+      setCurrentUser({ ...user, firstName, lastName, accountType });
     } catch (error) {
       console.error("Error registering:", error);
       throw error;
@@ -61,7 +56,8 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      setCurrentUser(userCredential.user);
+      const userDoc = await getDoc(doc(db, 'users', userCredential.user.uid));
+      setCurrentUser({ ...userCredential.user, ...userDoc.data() });
     } catch (error) {
       console.error("Error logging in:", error);
       throw error;

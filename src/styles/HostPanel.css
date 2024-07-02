@@ -1,0 +1,44 @@
+/* src/styles/HostPanel.css */
+
+.host-panel-container {
+  display: flex;
+  height: 100vh;
+}
+
+.host-panel-sidebar {
+  width: 250px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.host-panel-sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.host-panel-sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.host-panel-sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.host-panel-sidebar nav ul li a:hover,
+.host-panel-sidebar nav ul li.active a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.host-panel-main {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
