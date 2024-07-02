@@ -31,7 +31,7 @@ const Navbar = () => {
         {currentUser ? (
           <div className="navbar-profile">
             {currentUser.accountType === 'anfitrion' && (
-              <Link to="/host-panel">
+              <Link to="/host">
                 <button className="btn-host-panel">Panel de Anfitrión</button>
               </Link>
             )}
