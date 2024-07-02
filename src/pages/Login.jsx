@@ -1,23 +1,26 @@
 /* eslint-disable react/prop-types */
 // src/pages/Login.jsx
-import { useContext, useState } from 'react';
-import { UserContext } from '../context/UserContext';
-import { login } from '../services/api';
+
+import { useState } from 'react';
+import { useAuth } from '../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Login.css';
 
-const Login = ({ history }) => {
-  const { login: userLogin } = useContext(UserContext);
+const Login = () => {
+  const { login } = useAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError('');
     try {
-      const response = await login({ email, password });
-      userLogin(response.data);
-      history.push('/');
-    } catch (error) {
-      console.error('Login failed', error);
+      await login(email, password);
+      navigate('/explore');
+    } catch (err) {
+      setError('Login failed. Please check your credentials and try again.');
     }
   };
 
@@ -25,6 +28,7 @@ const Login = ({ history }) => {
     <div className="login-container">
       <div className="login-form">
         <h2>Iniciar sesión</h2>
+        {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
           <label>Correo Electrónico</label>
           <input
