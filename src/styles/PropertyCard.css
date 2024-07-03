@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 10px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .property-image {
@@ -13,6 +14,35 @@
   background-size: cover;
   background-position: center;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.property-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.property-image:hover .property-actions {
+  opacity: 1;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .property-details {

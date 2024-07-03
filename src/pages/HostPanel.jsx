@@ -8,6 +8,7 @@ import Reservations from './Reservations';
 import Support from './Support';
 import '../styles/HostPanel.css';
 import AddProperty from './AddProperty';
+import EditProperty from './EditProperty ';
 
 const HostPanel = () => {
   const [activeSection, setActiveSection] = useState('overview');
@@ -75,6 +76,7 @@ const HostPanel = () => {
           <Route path="reservations" element={<Reservations />} />
           <Route path="support" element={<Support />} />
           <Route path="addproperty" element={<AddProperty/>}/>
+          <Route path="editproperty/:id" element={<EditProperty/>}/>
         </Routes>   
       </main>
     </div>
