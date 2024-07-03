@@ -6,8 +6,10 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import '../styles/Reserve.css';
 import Modal from '../components/Modal';
+import { useAuth } from '../contexts/AuthContext';
 
 const Reserve = () => {
+  const { currentUser } = useAuth();
   const { id } = useParams();
   const navigate = useNavigate();
   const [property, setProperty] = useState(null);
@@ -64,6 +66,7 @@ const Reserve = () => {
 
     // Create reservation
     const reservation = {
+      userId: currentUser.uid, 
       propertyId: id,
       date: date.toISOString().split('T')[0],
       paymentOption,

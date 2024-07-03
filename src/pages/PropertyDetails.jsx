@@ -45,7 +45,7 @@ const PropertyDetails = () => {
           {property.printingService && <li>Servicio de impresión</li>}
         </ul>
       </div>
-      <div className="property-details-amenities">
+      <div className="property-amenities">
         <h3>Comodidades:</h3>
         <ul>
           {property.bathroom && <li>Baño</li>}

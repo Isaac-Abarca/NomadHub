@@ -4,6 +4,20 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  min-height: 100vh;
+}
+
+.inloggion {
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.inloggion span {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .reservations-container h2 {
@@ -22,6 +36,13 @@
   border-radius: 10px;
   padding: 10px;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reservation-info {
+  flex: 1;
 }
 
 .reservation-card p {
@@ -31,4 +52,39 @@
 .reservation-title {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.reservation-property-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.property-image {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.property-price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details-button {
+  background-color: #209cee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
 }

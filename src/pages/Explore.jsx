@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../utils/firebase';
 import PublicPropertyCard from '../components/PublicPropertyCard';
-import '../styles/Home.css';
+import '../styles/Explore.css';
 
 const Home = () => {
   const [properties, setProperties] = useState([]);

@@ -1,6 +1,8 @@
 .home-container {
-  padding: 10rem;
-  
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  min-height: 100vh;
 }
 
 .home-container h2 {
