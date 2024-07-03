@@ -1,56 +1,62 @@
-.public-property-card {
+.public-card {
+  font-family: monospace;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
-.public-property-image {
+.public-image {
   width: 100%;
   height: 200px;
   background-size: cover;
   background-position: center;
+  position: relative;
+  
 }
 
-.public-property-details {
-  padding: 10px;
+.public-details {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 1rem;
+  gap: 0.5rem;
 }
 
-.public-property-title {
-  font-size: 18px;
+.public-details p {
+  padding: 0;
+  margin: 0;
+}
+
+.public-title {
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
-.public-property-price {
+.public-price {
   font-size: 14px;
-  margin-bottom: 10px;
 }
 
-.details-button,
-.reserve-button {
-  background-color: #209cee;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-bottom: 5px;
+.public-actions{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
-.details-button:hover,
-.reserve-button:hover {
-  background-color: #0056b3;
+.public-image:hover .public-actions {
+  display: block; 
+  
 }
 
 
-.public-property-actions{
-    background: none;
+.public-action-button {
+  background: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
   cursor: pointer;
   font-size: 20px;
+  border-radius: 5px;
+  padding-top: 5px;
 }

@@ -5,19 +5,19 @@ import { HiArrowsPointingOut } from "react-icons/hi2";
 
 const PublicPropertyCard = ({ property }) => {
     return (
-        <div className="public-property-card">
-            <div className="public-property-image" style={{ backgroundImage: `url(${property.imageUrl})` }}>
-                <div className="public-property-actions">
+        <div className="public-card">
+            <div className="public-image" style={{ backgroundImage: `url(${property.imageUrl})` }}>
+                <div className="public-actions">
                     <Link to={`/property/${property.id}`}>
-                        <button className="action-button">
+                        <button className="public-action-button">
                             <HiArrowsPointingOut />
                         </button>
                     </Link>
                 </div>
             </div>
-            <div className="public-property-details">
-                <p className="public-property-title">{property.title}</p>
-                <p className="public-property-price">${property.price}/hr · {property.spaces} espacios</p>
+            <div className="public-details">
+                <p className="public-title">{property.title}</p>
+                <p className="public-price">${property.price}/hr · {property.spaces} espacios</p>
             </div>
         </div>
     );

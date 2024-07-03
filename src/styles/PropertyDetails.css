@@ -2,9 +2,15 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+
+  font-family: monospace;
 }
 
-.property-image {
+.property-details-container h2{
+  font-size: 2.5rem;
+}
+
+.property-details-image {
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -12,18 +18,18 @@
   margin-bottom: 20px;
 }
 
-.property-description {
+.property-details-description {
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
-.property-price {
+.property-details-price {
   font-size: 18px;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.property-services,
-.property-amenities {
+.property-details-services,
+.property-details-amenities {
   margin-bottom: 20px;
 }
 
@@ -36,8 +42,4 @@
 .property-services li,
 .property-amenities li {
   margin-bottom: 10px;
-}
-
-.public-action-button{
-    
 }

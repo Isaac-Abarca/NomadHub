@@ -27,9 +27,9 @@ const PropertyDetails = () => {
   return (
     <div className="property-details-container">
       <h2>{property.title}</h2>
-      <div className="property-image" style={{ backgroundImage: `url(${property.imageUrl})` }}></div>
-      <p className="property-description">{property.description}</p>
-      <p className="property-price">${property.price}/hr · {property.spaces} espacios</p>
+      <div className="property-details-image" style={{ backgroundImage: `url(${property.imageUrl})` }}></div>
+      <p className="property-details-description">{property.description}</p>
+      <p className="property-details-price">${property.price}/hr · {property.spaces} espacios</p>
       <div className="property-services">
         <h3>Servicios:</h3>
         <ul>
@@ -40,7 +40,7 @@ const PropertyDetails = () => {
           {property.printingService && <li>Servicio de impresión</li>}
         </ul>
       </div>
-      <div className="property-amenities">
+      <div className="property-details-amenities">
         <h3>Comodidades:</h3>
         <ul>
           {property.bathroom && <li>Baño</li>}
