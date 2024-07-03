@@ -1,5 +1,6 @@
 .home-container {
   padding: 10rem;
+  
 }
 
 .home-container h2 {
@@ -11,4 +12,5 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  padding-bottom: 10rem;
 }

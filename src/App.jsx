@@ -10,10 +10,10 @@ import Register from './pages/Register';
 import ProtectedComponent from './pages/ProtectedComponent';
 import { AuthProvider } from './contexts/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
-import Home from './pages/Home';
 import Profile from './pages/Profile';
 import HostPanel from './pages/HostPanel'; 
 import PropertyDetails from './pages/PropertyDetails';
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Explore />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/workspaces" element={<Workspaces />} />
           <Route path="/help" element={<Help />} />
@@ -39,6 +39,7 @@ const App = () => {
             }
           />
         </Routes>
+        <Footer/>
       </Router>
     </AuthProvider>
   );

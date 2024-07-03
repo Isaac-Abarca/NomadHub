@@ -18,10 +18,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={logo} alt="NomadHub Logo" />
-        <span>NomadHub</span>
-      </div>
+      <Link to='/explore' className="unstyled-link">
+        <div className="navbar-logo">
+          <img src={logo} alt="NomadHub Logo" />
+          <span>NomadHub</span>
+        </div>
+      </Link>
+
       <div className="navbar-links">
         <Link to="/explore">Explorar</Link>
         <Link to="/workspaces">Espacios de trabajo</Link>

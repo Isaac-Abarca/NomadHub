@@ -1,5 +1,9 @@
 /* src/components/Navbar.css */
-
+.unstyled-link{
+  all: unset;
+  cursor: pointer; /* Si deseas mantener el cursor de pointer para indicar que es un enlace */
+  display: block;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,7 +24,8 @@
 }
 
 .navbar-logo span {
-  font-size: 18px;
+  font-family: monospace;
+  font-size: 2rem;
   font-weight: bold;
 }
 
