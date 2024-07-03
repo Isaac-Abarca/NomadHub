@@ -13,6 +13,7 @@ import PrivateRoute from './components/PrivateRoute';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import HostPanel from './pages/HostPanel'; 
+import PropertyDetails from './pages/PropertyDetails';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
           <Route path="/host/*" element={<PrivateRoute><HostPanel /></PrivateRoute>} />
+          <Route path="/property/:id" element={<PropertyDetails />} />
           <Route
             path="/protected"
             element={
