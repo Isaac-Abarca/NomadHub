@@ -6,6 +6,7 @@ import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faPhone, faPen, faTrash, faCamera } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import USER from '../assets/user.png';
 import '../styles/Profile.css';
 
 const Profile = () => {
@@ -78,10 +79,14 @@ const Profile = () => {
 
     return (
         <div className="profile">
-            <section className='profile-container'>
+            <section className="profile-container">
                 <div className="profile-header">
                     <div className="profile-pic-container">
-                        <img src={profile.photoURL || '/path/to/default-avatar.png'} alt="Profile" className="profile-pic" />
+                        <img 
+                            src={profile.photoURL || USER} 
+                            alt="Profile" 
+                            className="profile-pic" 
+                        />
                         {editing && (
                             <label className="profile-pic-edit">
                                 <FontAwesomeIcon icon={faCamera} />
@@ -104,80 +109,94 @@ const Profile = () => {
                 <div className="profile-details">
                     <h3>Detalles de {profile.firstName}</h3>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faUser} />
                         <label>Nombre</label>
-                        <input
-                            type="text"
-                            name="firstName"
-                            value={profile.firstName}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faUser} />
+                            <input
+                                type="text"
+                                name="firstName"
+                                value={profile.firstName}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faUser} />
                         <label>Apellidos</label>
-                        <input
-                            type="text"
-                            name="lastName"
-                            value={profile.lastName}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faUser} />
+                            <input
+                                type="text"
+                                name="lastName"
+                                value={profile.lastName}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faEnvelope} />
                         <label>Correo electrónico</label>
-                        <input
-                            type="email"
-                            name="email"
-                            value={profile.email}
-                            readOnly
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            <input
+                                type="email"
+                                name="email"
+                                value={profile.email}
+                                readOnly
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faPhone} />
                         <label>Número de teléfono</label>
-                        <input
-                            type="text"
-                            name="phone"
-                            value={profile.phone}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faPhone} />
+                            <input
+                                type="text"
+                                name="phone"
+                                value={profile.phone}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faInstagram} />
                         <label>Instagram</label>
-                        <input
-                            type="text"
-                            name="instagram"
-                            value={profile.instagram}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faInstagram} />
+                            <input
+                                type="text"
+                                name="instagram"
+                                value={profile.instagram}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faWhatsapp} />
                         <label>WhatsApp</label>
-                        <input
-                            type="text"
-                            name="whatsapp"
-                            value={profile.whatsapp}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faWhatsapp} />
+                            <input
+                                type="text"
+                                name="whatsapp"
+                                value={profile.whatsapp}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                     <div className="input-field">
-                        <FontAwesomeIcon icon={faTelegram} />
                         <label>Telegram</label>
-                        <input
-                            type="text"
-                            name="telegram"
-                            value={profile.telegram}
-                            onChange={handleChange}
-                            disabled={!editing}
-                        />
+                        <div className="input-wrapper">
+                            <FontAwesomeIcon icon={faTelegram} />
+                            <input
+                                type="text"
+                                name="telegram"
+                                value={profile.telegram}
+                                onChange={handleChange}
+                                disabled={!editing}
+                            />
+                        </div>
                     </div>
                 </div>
             </section>

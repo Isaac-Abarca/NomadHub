@@ -1,16 +1,16 @@
-/* src/styles/Profile.css */
-
 .profile {
-  width: 100%;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
+
 .profile-container {
   max-width: 800px;
-  margin: auto;
-  padding: 20px;
-
+  width: 100%;
   border-radius: 10px;
-  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
 .profile-header {
@@ -28,21 +28,24 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile-pic-edit {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   padding: 5px;
   cursor: pointer;
+  color: #fff;
 }
 
 .profile-header h2 {
   font-size: 24px;
   font-weight: bold;
+  color: #333;
 }
 
 .btn-edit,
@@ -59,9 +62,17 @@
   color: #fff;
 }
 
+.btn-edit:hover {
+  background-color: #0056b3;
+}
+
 .btn-delete {
   background-color: #dc3545;
   color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #b02a37;
 }
 
 .profile-details {
@@ -71,38 +82,43 @@
 .profile-details h3 {
   font-size: 20px;
   margin-bottom: 20px;
-}
-
-.profile-details label {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-weight: bold;
+  color: #555;
 }
 
 .profile-details .input-field {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin-bottom: 15px;
 }
 
-.profile-details .input-field svg {
-  height: 24px;
-  width: 24px;
+.profile-details .input-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+
+.profile-details .input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9fafb;
+  padding: 10px;
+}
+
+.profile-details .input-wrapper svg {
   margin-right: 10px;
+  color: #666;
 }
 
 .profile-details input {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9fafb;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #333;
 }
 
-.profile-details input:disabled {
-  background-color: #e9ecef;
-}
 
 .divider {
   width: 100%;

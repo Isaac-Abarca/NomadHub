@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 import logo from '../assets/logo.png';
 import { useAuth } from '../contexts/AuthContext';
+import USER from '../assets/user.png'
 
 const Navbar = () => {
   const { currentUser, logout } = useAuth();
@@ -28,7 +29,6 @@ const Navbar = () => {
       <div className="navbar-links">
         <Link to="/explore">Explorar</Link>
         <Link to="/reservations">Reservas</Link>
-        <Link to="/help">Ayuda</Link>
       </div>
       <div className="navbar-buttons">
         {currentUser ? (
@@ -38,10 +38,11 @@ const Navbar = () => {
                 <button className="btn-host-panel">Panel de Anfitrión</button>
               </Link>
             )}
+            <button onClick={handleLogout} className="btn-logout">Salir</button>
             <Link to="/profile">
-              <img src={currentUser.photoURL || "/path/to/default-avatar.png"} alt="Profile" className="profile-pic-navbar" />
+              <img src={currentUser.photoURL || USER} alt="Profile" className="profile-pic-navbar" />
             </Link>
-            <button onClick={handleLogout} className="btn-logout">Cerrar sesión</button>
+            
           </div>
         ) : (
           <>
