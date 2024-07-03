@@ -1,5 +1,3 @@
-// src/pages/Profile.js
-
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { db, storage } from '../utils/firebase';
@@ -23,7 +21,8 @@ const Profile = () => {
     });
     const [loading, setLoading] = useState(true);
     const [editing, setEditing] = useState(false);
-    const [setUploading] = useState(false); // Asegúrate de definir setUploading
+    // eslint-disable-next-line no-unused-vars
+    const [uploading, setUploading] = useState(false);
 
     useEffect(() => {
         const fetchProfile = async () => {
@@ -182,7 +181,6 @@ const Profile = () => {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 };
