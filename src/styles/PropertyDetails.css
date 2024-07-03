@@ -2,12 +2,33 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-
   font-family: monospace;
 }
 
-.property-details-container h2{
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.property-details-container h2 {
   font-size: 2.5rem;
+}
+
+.reserve-button {
+  background-color: #209cee;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+  background-color: #0056b3;
 }
 
 .property-details-image {
@@ -28,7 +49,7 @@
   margin-bottom: 20px;
 }
 
-.property-details-services,
+.property-services,
 .property-details-amenities {
   margin-bottom: 20px;
 }

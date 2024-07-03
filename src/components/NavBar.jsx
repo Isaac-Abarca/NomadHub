@@ -27,7 +27,7 @@ const Navbar = () => {
 
       <div className="navbar-links">
         <Link to="/explore">Explorar</Link>
-        <Link to="/workspaces">Espacios de trabajo</Link>
+        <Link to="/reservations">Reservas</Link>
         <Link to="/help">Ayuda</Link>
       </div>
       <div className="navbar-buttons">

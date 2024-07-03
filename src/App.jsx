@@ -3,7 +3,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/NavBar';
 import Explore from './pages/Explore';
-import Workspaces from './pages/Workspaces';
+import Workspaces from './pages/MyReservation';
 import Help from './pages/Help';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -14,6 +14,8 @@ import Profile from './pages/Profile';
 import HostPanel from './pages/HostPanel'; 
 import PropertyDetails from './pages/PropertyDetails';
 import Footer from './components/Footer'
+import Reserve from './pages/Reserve';
+import Reservations from './pages/Reservations';
 
 const App = () => {
   return (
@@ -30,6 +32,8 @@ const App = () => {
           <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
           <Route path="/host/*" element={<PrivateRoute><HostPanel /></PrivateRoute>} />
           <Route path="/property/:id" element={<PropertyDetails />} />
+          <Route path="/reserve/:id" element={<PrivateRoute><Reserve /></PrivateRoute>} />
+          <Route path="/reservations" element={<Reservations />} />
           <Route
             path="/protected"
             element={

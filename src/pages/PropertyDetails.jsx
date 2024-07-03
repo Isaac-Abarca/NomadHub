@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../utils/firebase';
 import '../styles/PropertyDetails.css';
@@ -26,7 +26,12 @@ const PropertyDetails = () => {
 
   return (
     <div className="property-details-container">
-      <h2>{property.title}</h2>
+      <div className="property-header">
+        <h2>{property.title}</h2>
+        <Link to={`/reserve/${id}`}>
+          <button className="reserve-button">Reservar</button>
+        </Link>
+      </div>
       <div className="property-details-image" style={{ backgroundImage: `url(${property.imageUrl})` }}></div>
       <p className="property-details-description">{property.description}</p>
       <p className="property-details-price">${property.price}/hr · {property.spaces} espacios</p>
@@ -47,7 +52,6 @@ const PropertyDetails = () => {
           {property.shower && <li>Ducha</li>}
           {property.kitchen && <li>Cocina</li>}
           {property.airConditioning && <li>Aire acondicionado</li>}
-          {property.heating && <li>Calefacción</li>}
         </ul>
       </div>
     </div>
@@ -55,3 +59,4 @@ const PropertyDetails = () => {
 };
 
 export default PropertyDetails;
+
